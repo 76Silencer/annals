@@ -1,6 +1,6 @@
 ---
 title: 7_divided_by_3
-date: 1073-01-01
+date: 1973-01-01
 tags: [人物]
 ---
 
@@ -12,8 +12,8 @@ tags: [人物]
 |gender|男|
 |XCPC|[赵禹权](https://cpcfinder.com/student/e93eefaa-c754-4cc2-a679-c9d4e2c5651c)|
 |QQ|1469855250|
-|Mail||
-|github||
+|Mail|[1469855250@qq.com](mailto:1469855250@qq.com)|
+|github|[7dividedby3](https://github.com/7dividedby3)|
 |blog||
 |codeforces|[7_divided_by_3](https://codeforces.com/profile/7_divided_by_3)|
 |atcoder|[A7_divided_by_3](https://atcoder.jp/users/A7_divided_by_3)|

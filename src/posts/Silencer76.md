@@ -10,7 +10,7 @@ tags: [人物]
 |:---:|:---:|
 |id|Silencer76|
 |gender|男|
-|XCPC||
+|XCPC|[冯俊杰](https://cpcfinder.com/student/40a048e4-7df1-494c-86f3-c484cae29436)|
 |QQ|2489377028|
 |Mail|[fengjacke@gmail.com](mailto:fengjacke@gmail.com)|
 |github|[76Silencer](https://github.com/76Silencer/)|

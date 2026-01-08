@@ -10,7 +10,7 @@ tags: [人物]
 |:---:|:---:|
 |id|7_divided_by_3|
 |gender|男|
-|XCPC|[赵禹权](https://cpcfinder.com/student/e93eefaa-c754-4cc2-a679-c9d4e2c5651c)|
+|XCPC||
 |QQ|1469855250|
 |Mail|[1469855250@qq.com](mailto:1469855250@qq.com)|
 |github|[7dividedby3](https://github.com/7dividedby3)|

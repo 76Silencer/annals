@@ -18,7 +18,7 @@
     </main>
 
     <footer class="mt-auto py-6 border-t border-gray-200 dark:border-gray-700 text-center text-gray-500 text-sm">
-      © {{ new Date().getFullYear() }} XCPC岁月史书 - Silencer76
+      © 2025-{{ new Date().getFullYear() }} XCPC岁月史书 - Silencer76
     </footer>
   </div>
 </template>

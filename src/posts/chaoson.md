@@ -13,6 +13,7 @@ tags: [人物]
 |XCPC|[何旭](https://cpcfinder.com/student/f35dfa59-7001-42b0-893c-69857775b2f0)|
 |QQ|2159877459|
 |Mail|[2159877459@qq.com](mailto:2159877459@qq.com)|
+|bilibili|[叹离歌](https://space.bilibili.com/3546689365346958)|
 |github||
 |blog||
 |codeforces|[chaoson](https://codeforces.com/profile/chaoson)|

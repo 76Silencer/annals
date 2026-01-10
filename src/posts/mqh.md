@@ -13,6 +13,7 @@ tags: [人物]
 |XCPC|[茅泉浩](https://cpcfinder.com/student/065bec84-2b43-4207-b6ff-8ad3222644f5)|
 |QQ|2059197121|
 |Mail||
+|bilibili||
 |github||
 |blog||
 |codeforces|[nmsl](https://codeforces.com/profile/nmsl)|

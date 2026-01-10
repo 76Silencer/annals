@@ -13,6 +13,7 @@ tags: [人物]
 |XCPC||
 |QQ|2489377028|
 |Mail|[fengjacke@gmail.com](mailto:fengjacke@gmail.com)|
+|bilibili|[Silencer76](https://space.bilibili.com/220194831)|
 |github|[76Silencer](https://github.com/76Silencer/)|
 |blog|[76的编程小屋](http://www.silencer76.com/)|
 |codeforces|[Silencer76](https://codeforces.com/profile/Silencer76)|

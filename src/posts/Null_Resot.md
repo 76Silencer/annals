@@ -13,6 +13,7 @@ tags: [人物]
 |XCPC||
 |QQ|2811904198|
 |Mail|[resot@qq.com](mailto:resot@qq.com)|
+|bilibili|[Null_Resot](https://space.bilibili.com/178109215)|
 |github|[NullResot](https://github.com/NullResot/)|
 |blog|[知乎-resot](https://www.zhihu.com/people/resot)|
 |codeforces|[Null_Resot](https://codeforces.com/profile/Null_Resot)|

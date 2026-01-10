@@ -13,6 +13,7 @@ tags: [人物]
 |XCPC|[蒋凌宇](https://cpcfinder.com/student/465d7afc-d4e7-4446-a808-510883446a4a)|
 |QQ|1902235419|
 |Mail||
+|bilibili|[jiangly不是dd](https://space.bilibili.com/130648068)|
 |github||
 |blog||
 |codeforces|[jiangly](https://codeforces.com/profile/jiangly)|

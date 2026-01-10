@@ -13,6 +13,7 @@ tags: [人物]
 |XCPC||
 |QQ|1469855250|
 |Mail|[1469855250@qq.com](mailto:1469855250@qq.com)|
+|bilibili|[7_除以_3](https://space.bilibili.com/488419194)|
 |github|[7dividedby3](https://github.com/7dividedby3)|
 |blog||
 |codeforces|[7_divided_by_3](https://codeforces.com/profile/7_divided_by_3)|

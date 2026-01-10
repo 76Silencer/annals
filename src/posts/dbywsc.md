@@ -13,6 +13,7 @@ tags: [人物]
 |XCPC||
 |QQ|1106678350|
 |Mail|[dbywsc@outlook.com](mailto:dbywsc@outlook.com)|
+|bilibili|[dbywsc](https://space.bilibili.com/359145159)|
 |github|[dbywsc](https://github.com/dbywsc/)|
 |blog|[dbywsc-cnblogs](https://www.cnblogs.com/dbywsc/)|
 |codeforces|[dbywsc](https://codeforces.com/profile/dbywsc)|

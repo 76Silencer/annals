@@ -178,25 +178,29 @@ const parseFrontmatter = (fileContent) => {
 
 // 自动加载 posts 目录下的所有 md 文件
 const loadPosts = async () => {
-  const modules = import.meta.glob('../posts/*.md', { query: '?raw', import: 'default', eager: true })
-  const postList = []
-
-  for (const path in modules) {
-    const fileContent = modules[path]
-    const { data } = parseFrontmatter(fileContent)
-    const id = path.split('/').pop().replace('.md', '')
-    
-    postList.push({
-      id,
-      title: data.title || id,
-      date: data.date || '未知日期',
-      tags: data.tags || [],
-      content: fileContent
-    })
-  }
+  const modules = import.meta.glob('../posts/*.md', { query: '?raw', import: 'default' })
   
+  // 获取所有加载器
+  const loaders = Object.entries(modules)
+  
+  // 并发执行所有加载任务
+  const results = await Promise.all(
+    loaders.map(async ([path, loader]) => {
+      const fileContent = await loader()
+      const { data } = parseFrontmatter(fileContent)
+      const id = path.split('/').pop().replace('.md', '')
+      return {
+        id,
+        title: data.title || id,
+        date: data.date || '未知日期',
+        tags: data.tags || [],
+        content: fileContent
+      }
+    })
+  )
+
   // 按日期降序排序
-  posts.value = postList.sort((a, b) => {
+  posts.value = results.sort((a, b) => {
     const dateA = new Date(a.date)
     const dateB = new Date(b.date)
     return dateB - dateA

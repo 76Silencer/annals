@@ -11,7 +11,11 @@
       <div class="flex items-center text-gray-500 text-sm space-x-4">
         <span>{{ post.date }}</span>
         <div v-if="post.tags" class="flex gap-2">
-          <span v-for="tag in post.tags" :key="tag" class="px-2 py-0.5 bg-gray-100 dark:bg-gray-700 rounded text-xs">
+          <span 
+            v-for="tag in post.tags" 
+            :key="tag" 
+            :class="['px-2 py-0.5 rounded text-xs font-medium', getTagStyle(tag)]"
+          >
             {{ tag }}
           </span>
         </div>
@@ -38,6 +42,27 @@ const md = new MarkdownIt({
   linkify: true,
   typographer: true
 })
+
+// 预设颜色池
+const colorMap = [
+  { bg: 'bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-300', active: 'bg-blue-600 text-white' },
+  { bg: 'bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-300', active: 'bg-green-600 text-white' },
+  { bg: 'bg-purple-100 text-purple-700 dark:bg-purple-900/30 dark:text-purple-300', active: 'bg-purple-600 text-white' },
+  { bg: 'bg-amber-100 text-amber-700 dark:bg-amber-900/30 dark:text-amber-300', active: 'bg-amber-600 text-white' },
+  { bg: 'bg-rose-100 text-rose-700 dark:bg-rose-900/30 dark:text-rose-300', active: 'bg-rose-600 text-white' },
+  { bg: 'bg-indigo-100 text-indigo-700 dark:bg-indigo-900/30 dark:text-indigo-300', active: 'bg-indigo-600 text-white' },
+  { bg: 'bg-emerald-100 text-emerald-700 dark:bg-emerald-900/30 dark:text-emerald-300', active: 'bg-emerald-600 text-white' },
+]
+
+// 获取标签颜色的函数
+const getTagStyle = (tag, isSelected = false) => {
+  let hash = 0
+  for (let i = 0; i < tag.length; i++) {
+    hash = tag.charCodeAt(i) + ((hash << 5) - hash)
+  }
+  const index = Math.abs(hash) % colorMap.length
+  return isSelected ? colorMap[index].active : colorMap[index].bg
+}
 
 const parseFrontmatter = (fileContent) => {
   const match = fileContent.match(/^---\r?\n([\s\S]+?)\r?\n---\r?\n([\s\S]*)$/)
@@ -70,7 +95,7 @@ const loadPost = async () => {
   const id = props.id || route.params.id
   try {
     // 动态导入 md 文件
-    const modules = import.meta.glob('../posts/*.md', { as: 'raw' })
+    const modules = import.meta.glob('../posts/*.md', { query: '?raw', import: 'default' })
     const path = `../posts/${id}.md`
     
     if (modules[path]) {

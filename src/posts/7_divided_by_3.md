@@ -1,6 +1,6 @@
 ---
 title: 7_divided_by_3
-date: 1973-01-01
+date: 1973-07-03
 tags: [人物]
 ---
 

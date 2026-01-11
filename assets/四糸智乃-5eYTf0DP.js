@@ -1,0 +1,24 @@
+const n=`---
+title: 四糸智乃
+date: 2025-08-03
+tags: [人物]
+---
+
+# 四糸智乃
+
+|key|value|
+|:---:|:---:|
+|id|四糸智乃|
+|gender|男|
+|XCPC||
+|QQ|1002658987|
+|Mail||
+|bilibili||
+|github||
+|blog||
+|codeforces|[winterzz1](https://codeforces.com/profile/winterzz1)|
+|atcoder||
+|qoj||
+|luogu||
+|nowcoder|[四糸智乃](https://ac.nowcoder.com/acm/contest/profile/7924887)|
+|leetcode||`;export{n as default};

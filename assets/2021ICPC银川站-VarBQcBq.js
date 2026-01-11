@@ -1,0 +1,14 @@
+const n=`---
+title: 2021ICPC银川站
+date: 2021-05-26
+tags: [事件]
+---
+
+# 2021ICPC银川站
+
+## 人物
+
+
+## 事件
+
+- [如何看待 2021 年的 ICPC 银川站涉舞弊争议，宁夏理工学院在官方公众号发布优秀队员获金牌感言？](https://www.zhihu.com/question/461222006/answer/1904881160)`;export{n as default};

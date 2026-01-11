@@ -1,22 +1,22 @@
 ---
-title: 三句号
-date: 2022-04-21
+title: ceryu
+date: 2022-04-23
 tags: [人物]
 ---
 
-# 三句号
+# ceryu
 
 |key|value|
 |:---:|:---:|
-|id|三句号|
+|id|ceryu|
 |gender|男|
 |XCPC||
-|QQ|1362120437,3640850960|
+|QQ|3183976683|
 |Mail||
 |bilibili||
 |github||
 |blog||
-|codeforces|[xinghen233](https://codeforces.com/profile/xinghen233)|
+|codeforces||
 |atcoder||
 |qoj||
 |luogu||

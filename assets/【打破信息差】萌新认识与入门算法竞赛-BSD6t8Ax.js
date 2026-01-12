@@ -8,7 +8,7 @@ tags: [干货]
 
 ## 人物
 
-- [Null_Reost](http://www.silencer76.com/annals/post/Null_Resot)
+- [Null_Resot](http://www.silencer76.com/annals/post/Null_Resot)
 
 ## 材料
 

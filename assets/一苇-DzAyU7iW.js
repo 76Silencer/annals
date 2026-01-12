@@ -1,0 +1,25 @@
+const e=`---
+title: 一苇
+date: 2006-06-20
+tags: [人物]
+---
+
+# 一苇
+
+|key|value|
+|:---:|:---:|
+|id|一苇|
+|gender|男|
+|XCPC||
+|QQ|1457882960|
+|Mail|[1457882960@qq.com](mailto:1457882960@qq.com)|
+|bilibili|[一苇大摆烂](https://space.bilibili.com/266696895)|
+|github|[reed](https://github.com/ame-code)|
+|blog||
+|codeforces|[reed0xE9](https://codeforces.com/profile/reed0xE9)|
+|atcoder|[reed0xE9](https://atcoder.jp/users/reed0xE9)|
+|qoj|[aleaf](https://qoj.ac/user/profile/aleaf)|
+|luogu|[reed0xE9](https://www.luogu.com.cn/user/869395)|
+|nowcoder|[一苇0xE9](https://ac.nowcoder.com/acm/contest/profile/139746934)|
+|leetcode||
+`;export{e as default};

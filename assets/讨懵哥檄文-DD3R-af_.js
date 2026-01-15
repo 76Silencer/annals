@@ -1,0 +1,15 @@
+const n=`---
+title: 讨懵哥檄文
+date: 2023-11-15
+tags: [事件]
+---
+
+# 讨懵哥檄文
+
+## 人物
+
+- 懵哥
+
+## 事件
+
+- [讨懵哥檄文](https://www.zhihu.com/question/627281278/answer/3280684055)`;export{n as default};

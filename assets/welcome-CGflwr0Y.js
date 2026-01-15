@@ -15,6 +15,8 @@ hi ，欢迎访问本站！
 # 友情链接
 
 - [acmer.info](https://acmer.info/) XCPC 信息汇总
+- [xcpc.io](https://board.xcpcio.com/) XCPC 在线榜单
+- [algo](https://rl.algoux.org/) XCPC 历史榜单
 - [cpcfinder](https://cpcfinder.com/) XCPC 奖项查询
 - [icpc.global](https://icpc.global/) ICPC全球总部
 - [icpc.pku](https://icpc.pku.edu.cn/) ICPC北京总部
@@ -24,6 +26,7 @@ hi ，欢迎访问本站！
 - [oeis](https://oeis.org/)  数列规律查询
 - [yuantiji](https://yuantiji.ac/zh/) 原题机
 - [paste](https://paste.ubuntu.com/) 代码粘贴版
+- [polygon](https://polygon.codeforces.com/) cf造题平台
 - [cppref](https://en.cppreference.com/w/) cppreference
 - [vjudge](https://vjudge.net/) vjudge
 - [codeforces](https://codeforces.com/contests) codeforces
@@ -38,6 +41,7 @@ hi ，欢迎访问本站！
 - [luogu](https://www.luogu.com.cn/contest/list) 洛谷
 - [nowcoder](https://ac.nowcoder.com/acm/contest/vip-index) 牛客
 - [leetcode](https://leetcode.cn/contest/) 力扣
+- [pta](https://pintia.cn/home) pta
 - [hdoj](https://acm.hdu.edu.cn/) 杭电OJ
 - [zoj](https://pintia.cn/problem-sets/91827364500/exam/problems/type/7) 浙大OJ
 - [uoj](https://uoj.ac/) uoj

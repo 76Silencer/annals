@@ -21,4 +21,5 @@ tags: [人物]
 |qoj|[7_divided_by_3](https://qoj.ac/user/profile/7_divided_by_3)|
 |luogu|[7_divided_by_3](https://www.luogu.com.cn/user/1192178)|
 |nowcoder|[7_divided_by_3](https://ac.nowcoder.com/acm/contest/profile/323096256)|
-|leetcode||`;export{d as default};
+|leetcode||
+`;export{d as default};
